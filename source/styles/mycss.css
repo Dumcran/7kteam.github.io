@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html,body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Rubik', serif;
+    background: linear-gradient(120deg, aquamarine 0%, rgb(33, 37, 41) 40%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    flex: 1;
+}
+
+p {
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;
+    font-family: 'Rubik Mono One', serif;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(131, 138, 138);
+}
+
+.navbar-brand img {
+    width: 8em;
+    color: aquamarine;
+}
+
+.navbar-toggler {
+    background-color: rgb(131, 138, 138);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(340deg, aquamarine 0%, rgb(33, 37, 41) 20%);
+}
+
+.sidebar a {
+    color: red !important;
+}
+
+.card {
+    background: linear-gradient(195deg, aquamarine 0%, rgb(33, 37, 41) 40%);
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(195deg, aquamarine 0%, rgb(33, 37, 41) 40%);
+    margin-top: auto;
+    padding-top: 20px;
+    position: relative;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    padding-bottom: 40px;
+}
+
+.slide-text p {
+    font-size: calc(1.2rem + 0.5vw);
+    margin: 0;
+    padding: 0 1.5rem;
+    color: aquamarine;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.slide-text p a {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+.footer-text p a {
+    text-decoration: none !important;
+    color: aquamarine !important;
+}
+
+.members-page .card h5 a {
+    text-decoration: none !important;
+}
+
+.card h5 a {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slide-text p {
+        font-size: 2rem;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .slide-text p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .slide-text p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .slide-text p {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,64 @@
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.video-text {
+    font-family: 'Rubik Mono One', serif;
+    color: aquamarine;
+    z-index: 2;
+}
+
+.video-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.audio-control {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .audio-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  #muteButton {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
