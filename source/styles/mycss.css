@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
 html,body {
     height: 100%;
 }
 
 body {
-    font-family: 'Rubik', serif;
+    font-family: 'Unbounded', serif;
     background: linear-gradient(120deg, aquamarine 0%, rgb(33, 37, 41) 40%);
     display: flex;
     flex-direction: column;
@@ -45,7 +44,7 @@ p {
 
 .sidebar {
     color: aquamarine;
-    font-family: 'Rubik Marker Hatch';
+    font-family: 'Unbounded';
     font-size: 20px;
 }
 
@@ -53,7 +52,7 @@ p {
     text-align: center;
     color: aquamarine;
     font-weight: bolder;
-    font-family: 'Rubik Marker Hatch';
+    font-family: 'Unbounded';
 }
 
 .sidebar a {
